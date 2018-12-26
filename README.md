@@ -9,13 +9,13 @@
     - `val`: 用以排序權重
 
 - Read: 查詢、讀取節點。支援兩種功能
-    - findById(): 依照 `Id` 進行搜尋。
-    - findByVal(): 依照 `Val` 進行搜尋。
+    - `findById()`: 依照 `Id` 進行搜尋。
+    - `findByVal()`: 依照 `Val` 進行搜尋。
 
 - Update: 更新節點。支援依照 `ID` 進行節點的 `Value` 更新。反之不支援。
-    - updateById()
+    - `updateById()`
 
 - Delete: 刪除節點，支援兩種功能
-    - deleteById(): 依照 `Id` 進行刪除，刪除後自動重新調整 bst 架構。
-    - deleteByVal(): 依照 `Val` 進行刪除，刪除後自動重新調整 bst 架構。
+    - `deleteById()`: 依照 `Id` 進行刪除，刪除後自動重新調整 bst 架構。
+    - `deleteByVal()`: 依照 `Val` 進行刪除，刪除後自動重新調整 bst 架構。
 
